@@ -1,0 +1,8 @@
+$ git config --global user.name "tangyifeng"
+$ git config --global user.email 1948124007@.com
+$ git config --list
+$ git init
+$ git add .
+$ git commit -m “注释”
+$ git status
+$ git log 
