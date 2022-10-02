@@ -21,4 +21,22 @@ $ git remote add origin git@github.com:YifengTang-1/Notes.git
 $ git branch -M main
 $ git push -u origin main
 
+#查看远程库
+$ git remote
+$ git remote -v
+$git remote rm origin #（删除关联的仓库）
+ 
+#提交本地库修改
+$ git add .
+$ git commit -m "22"
+$ git push -u origin main
 
+#从远程拉取最新数据
+
+$ git fetch 
+$ git merge
+
+#拷贝仓库代码到本地
+
+$ git clone git@github.com:matomo-org/matomo.git
+$ git clone git@github.com:YifengTang-1/Daily-Code.git
