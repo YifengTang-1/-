@@ -8,3 +8,17 @@ $ ssh-keygen -t rsa -C "1948124007@qq.com"
 #为了验证是否成功，在git bash下输入：
 
 $ ssh -T git@github.com
+
+#GitHb新建Notes仓库
+#本地：
+$ mkdir Notes
+$ cd Notes
+$ echo "# Notes" >> README.md
+$ git init
+$ git add .
+$ git commit -m "第一次提交"
+$ git remote add origin git@github.com:YifengTang-1/Notes.git
+$ git branch -M main
+$ git push -u origin main
+
+
