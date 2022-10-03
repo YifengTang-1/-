@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.miaodongketang.cn" method="post"> <!--默认method为get-->
+        <label for="text">text</label> <!--<label> 标签的 for 属性应当与相关元素的 id 属性相同。-->
+        <input type="text" name="text" id="text"/><br/>
+        <label for="password">password</label>    
+        <input type="password" name="password" id="password"/><br/>
+        <label for="number">number</label>  
+        <input type="number" name="number" id="number"/><br/>
+        <input type="file" name="file"/><br/>
+        <input type="radio" name="name" value="0"/>1
+        <input type="radio" name="name" value="0"/>2<br/>
+        <input type="checkbox" name="vehicle" value="Bike">I have a bike
+        <input type="checkbox" name="vehicle" value="Car">I have a car <br>
+        <select name="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select><br>
+
+        <input list="browsers" name="browser">
+        <datalist id="browsers">
+            <option value="Internet Explorer">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br>
+        <textarea name="textarea">我是一个文本框。</textarea><br>
+        <input type="submit" value="提交">
+		<input type="reset" value="重置">
+    </form>
+</body>
+</html>
