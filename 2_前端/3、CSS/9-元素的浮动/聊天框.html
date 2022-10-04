@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0; /*这行样式必须写，后面的章节会介绍*/
+        }
+    .content{
+        list-style: none; /*将无序列表的默认样式去掉*/
+        width: 260px;
+        height: 380px;
+        margin: auto; /*这个样式可以让对话框居中，不信删掉试试看？*/
+        border: 1px dotted black; /*合并的写法*/
+    }
+    .content .msg{
+       padding: 2px;
+        clear: both;
+    }
+    .content .left{
+        float: left;
+        background-color: grey;        
+    }
+    .content .right{
+        float: right;
+        background-color: green;
+    }
+</style>
+<body>
+    <ul class="content">
+        <li class="msg left">你好</li>
+        <li class="msg right">你好</li>
+        <li class="msg left">???</li>
+        <li class="msg right">THANK  YOU!</li>
+        <li class="msg left">BYE
+        </li>
+    </ul>
+</body>
+</html>

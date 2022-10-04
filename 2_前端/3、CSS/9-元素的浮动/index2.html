@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        margin: 0;
+    }
+    .a{
+        width: 20%;  
+        background-color: green;
+       
+    }
+    .b{
+        width: 60%; 
+        background-color: blue;
+    }
+    .c{
+        width: 20%;
+        background-color: red;
+    }
+    .a,.b,.c{
+        height: 200px;
+        float:left;
+    }
+    .hh{
+        height: 400px;
+        background: gray;
+    }
+    .outer{
+        border-width:5px ;
+        border-style: dashed;
+        height: 200px;
+        overflow:auto;
+    }
+</style>
+<body>
+    <div class="outer"><!--浮动元素不占据大小 无法撑开父元素--><!--解决办法1、父元素设定高度 2、 overflow:auto 3、clear:left/right/both-->
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+    </div>
+        
+        <div class="hh"></div>
+</body>
+</html>
