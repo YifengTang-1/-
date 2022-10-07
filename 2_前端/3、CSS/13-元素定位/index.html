@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.box{
+			width: 1200px;height: 541px;
+			background: url(imgs/map.png);
+			margin: 10px auto;
+			position: relative;
+		}
+		.p1{
+			left: 149px;
+			top: 144px;
+			position: absolute;/*向上找定位元素，没找到以浏览器为参考系*/
+
+		}
+		.p1 .point{
+			width: 15px;
+			height: 15px;
+			background-color: red;
+			
+			float: left;/*浮动元素也是块元素*/
+		}
+		.p1 .info{
+			float:left;
+			line-height: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="p1">
+			<span class="point"></span>
+			<span class="info">美西</span>
+		</div>
+	</div>
+</body>
+</html>

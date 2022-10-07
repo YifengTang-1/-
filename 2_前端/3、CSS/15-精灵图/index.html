@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        ul{
+            list-style: none;
+            
+        }
+        ul li{
+            float: left;
+            margin-right: 10px;
+            text-align: center;
+            background-color:red;
+        }
+        ul li div{
+            width: 100px;height: 100px;
+            background: gray;
+            
+        }
+        ul li.a:hover div{
+            background: url(images/timg.jpg) 0 0;
+        }
+        ul li.b:hover div{
+            background: url(images/timg.jpg) 0 -100px;
+        }
+        ul li.c:hover div{
+            background: url(images/timg.jpg) 0 -200px;
+        }
+        ul li.d:hover div{
+            background: url(images/timg.jpg) -100px 0;
+        }
+        ul li.e:hover div{
+            background: url(images/timg.jpg) -100px -100px;
+        }
+        ul li.f:hover div{
+            background: url(images/timg.jpg) -100px -200px;
+        }
+        ul li.g:hover div{
+            background: url(images/timg.jpg) -200px 0;
+        }
+        ul li.h:hover div{
+            background: url(images/timg.jpg) -200px -100px;
+        }
+        ul li.i:hover div{
+            background: url(images/timg.jpg) -200px -200px;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li class="a">
+            001
+            <div></div>
+        </li>
+        <li class="b">
+            002
+            <div></div>
+        </li>
+        <li class="c">
+            003
+            <div></div>
+        </li>
+        <li class="d">
+            004
+            <div></div>
+        </li>
+        <li class="e">
+            005
+            <div></div>
+        </li>
+        <li class="f">
+            006
+            <div></div>
+        </li>
+        <li class="g">
+            007
+            <div></div>
+        </li>
+        <li class="h">
+            008
+            <div></div>
+        </li>
+        <li class="i">
+            009
+            <div></div>
+        </li>
+    </ul>
+</body>
+</html>
